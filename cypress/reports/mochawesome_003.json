@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-08T08:01:11.801Z",
+    "end": "2023-02-08T08:01:32.590Z",
+    "duration": 20789,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f8e5ed01-0f39-4409-af91-c5476b4c2043",
+      "title": "",
+      "fullFile": "cypress\\e2e\\verifyhooks.cy.js",
+      "file": "cypress\\e2e\\verifyhooks.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9743768f-6464-4a35-9e70-b6b666aac5b9",
+          "title": "hookconcept",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login1",
+              "fullTitle": "hookconcept Login1",
+              "timedOut": null,
+              "duration": 16289,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// cy.fixture(\"data.json\").then((logindata)=>{ \n//this.logindata=logindata\nconst ln = new _Loginpage.default();\nln.setuser();\nln.setpassword();\nln.signin();\nln.verifytest();",
+              "err": {},
+              "uuid": "1da0b84f-1d35-4f0a-a1a9-b84004124966",
+              "parentUUID": "9743768f-6464-4a35-9e70-b6b666aac5b9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1da0b84f-1d35-4f0a-a1a9-b84004124966"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16289,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "chats": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
